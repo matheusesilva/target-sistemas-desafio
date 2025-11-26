@@ -1,0 +1,8 @@
+# Build
+**/bin/
+**/obj/
+*.csproj.user
+
+# Arquivos de dados gerados nos testes
+**/movimentacoes.json
+**/comissoes.json

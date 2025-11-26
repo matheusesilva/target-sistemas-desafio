@@ -51,18 +51,18 @@ class Program
             {
                 resultados[vendedor] = new Dictionary<string, decimal> 
                 { 
-                    { "total_vendas", 0 }, 
-                    { "total_comissao", 0 } 
+                    { "totalVendas", 0 }, 
+                    { "totalComissao", 0 } 
                 };
             }
 
-            resultados[vendedor]["total_vendas"] += valor;
-            resultados[vendedor]["total_comissao"] += comissao;
+            resultados[vendedor]["totalVendas"] += valor;
+            resultados[vendedor]["totalComissao"] += comissao;
         }
 
         foreach (var vendedor in resultados.Keys)
         {
-          resultados[vendedor]["total_comissao"] = Math.Round(resultados[vendedor]["total_comissao"], 2);
+          resultados[vendedor]["totalComissao"] = Math.Round(resultados[vendedor]["totalComissao"], 2);
         }
 
         // Salva resultados
