@@ -20,7 +20,7 @@ class Program
         // Carrega ou cria o arquivo de movimentações
         var movimentacoes = CarregarMovimentacoes();
         
-        Console.WriteLine("=== SISTEMA DE CONTROLE DE ESTOQUE ===\n");
+        Console.WriteLine("---- SISTEMA DE CONTROLE DE ESTOQUE ----\n");
         
         // Pergunta o tipo de operação
         Console.WriteLine("Selecione o tipo de operação:");
@@ -77,7 +77,7 @@ class Program
         var novoEstoque = isEntrada ? estoqueAnterior + quantidade : estoqueAnterior - quantidade;
         
         // ETAPA DE CONFIRMAÇÃO
-        Console.WriteLine("\n=== CONFIRMAÇÃO DA MOVIMENTAÇÃO ===");
+        Console.WriteLine("\n---- CONFIRMAÇÃO DA MOVIMENTAÇÃO ----");
         Console.WriteLine($"Produto: {produtoSelecionado.DescricaoProduto}");
         Console.WriteLine($"Operação: {(isEntrada ? "ENTRADA" : "SAÍDA")}");
         Console.WriteLine($"Quantidade: {quantidade}");
@@ -126,7 +126,7 @@ class Program
         SalvarMovimentacoes(movimentacoes);
         
         // Exibe o resultado final
-        Console.WriteLine("\n=== MOVIMENTAÇÃO REGISTRADA ===");
+        Console.WriteLine("\n---- MOVIMENTAÇÃO REGISTRADA ----");
         Console.WriteLine($"ID: {idMovimentacao}");
         Console.WriteLine($"Produto: {produtoSelecionado.DescricaoProduto}");
         Console.WriteLine($"Operação: {(isEntrada ? "ENTRADA" : "SAÍDA")}");
