@@ -1,0 +1,18 @@
+{
+  "Jo\u00E3o Silva": {
+    "total_vendas": 10754.70,
+    "total_comissao": 495.68
+  },
+  "Maria Souza": {
+    "total_vendas": 9874.30,
+    "total_comissao": 465.95
+  },
+  "Carlos Oliveira": {
+    "total_vendas": 7928.35,
+    "total_comissao": 379.37
+  },
+  "Ana Lima": {
+    "total_vendas": 8763.95,
+    "total_comissao": 404.98
+  }
+}
