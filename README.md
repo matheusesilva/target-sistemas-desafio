@@ -9,15 +9,13 @@ Este repositório contém 3 programas independentes em C# para resolver o desafi
 
   **Regras:**
 
-  > Vendas < R$ 100,00: 0%
-  >
-  > Vendas < R$ 500,00: 1%
-  >
-  > Vendas ≥ R$ 500,00: 5%
+- Vendas < R$ 100,00: 0%
+- Vendas < R$ 500,00: 1%
+- Vendas ≥ R$ 500,00: 5%
 
-  **Entrada:** vendas.json
+**Entrada:** vendas.json
 
-  **Saída:** comissoes.json com totais por vendedor
+**Saída:** comissoes.json com totais por vendedor
 
 ### 2. ControleEstoque - Sistema de Controle de Estoque
 
@@ -25,21 +23,20 @@ Este repositório contém 3 programas independentes em C# para resolver o desafi
 
   **Funcionalidades:**
 
-  > Movimentações com ID único
-  >
-  > Descrição da movimentação realizada
+ - Movimentações com ID único
+ - Descrição da movimentação realizada
 
-  **Entrada:** estoque.json
+**Entrada:** estoque.json
 
-  **Saída:** Estoque atualizado + movimentacoes.json
+**Saída:** Estoque atualizado + movimentacoes.json
 
 ### 3. CalcularJurosAtual - Calculadora de Juros
 
 #### Desafio: Calcular juros por atraso com multa diária
   **Regras:**
   
-  > Taxa: 2,5% ao dia
+ - Taxa: 2,5% ao dia
 
-  **Entrada:** Valor + data de vencimento
+**Entrada:** Valor + data de vencimento
 
-  **Saída:** Valor total com juros no console
+**Saída:** Valor total com juros no console
